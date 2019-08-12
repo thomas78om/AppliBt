@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "ApliBt",
+    "packageName": "fr.sma.java.app",
+    "packageFolder": "fr/sma/java/app",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "NGIxOWUyYTk4ODdiYmQ2ZjIxYjVjNGI0YzllZWExNWI3OGJmMDVmMzJlYjdiYjQ2NzcyZjM0YTJlMzcyMmI0Y2IwM2YxNjYzNDdiNjNjOWQzOTU5OTc3MGI0ZjJhMTRmZTQzYTkyNDIxOWVmMzU3M2Q3MjU4NmQ3MGRiZGJjNmM=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "thomas78om",
+  "repository-name": "AppliBt"
+}
