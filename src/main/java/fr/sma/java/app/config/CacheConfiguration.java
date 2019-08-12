@@ -43,6 +43,13 @@ public class CacheConfiguration {
             createCache(cm, fr.sma.java.app.domain.User.class.getName());
             createCache(cm, fr.sma.java.app.domain.Authority.class.getName());
             createCache(cm, fr.sma.java.app.domain.User.class.getName() + ".authorities");
+            createCache(cm, fr.sma.java.app.domain.RefGroupeActivite.class.getName());
+            createCache(cm, fr.sma.java.app.domain.RefGroupeActivite.class.getName() + ".acteGestionDelais");
+            createCache(cm, fr.sma.java.app.domain.RefActeGestion.class.getName());
+            createCache(cm, fr.sma.java.app.domain.RefActeGestion.class.getName() + ".acteGestionDelais");
+            createCache(cm, fr.sma.java.app.domain.RefActivite.class.getName());
+            createCache(cm, fr.sma.java.app.domain.RefActivite.class.getName() + ".acteGestionDelais");
+            createCache(cm, fr.sma.java.app.domain.ActeGestionDelai.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
